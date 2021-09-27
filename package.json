@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "inferno": "^7.4.10",
+    "inferno-create-element": "^7.4.10",
+    "inferno-hyperscript": "^7.4.10",
+    "inferno-router": "^7.4.10",
+    "inferno-server": "^7.4.10"
+  },
+  "devDependencies": {
+    "babel-plugin-inferno": "^6.3.0"
+  }
+}
