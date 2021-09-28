@@ -5,7 +5,8 @@
   "dependencies": {
     "inferno": "^7.4.10",
     "inferno-router": "^7.4.10",
-    "inferno-scripts": "7.0.4"
+    "inferno-scripts": "7.0.4",
+    "mathjs": "^9.5.0"
   },
   "scripts": {
     "start": "inferno-scripts start",
