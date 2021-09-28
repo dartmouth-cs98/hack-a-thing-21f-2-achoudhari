@@ -1,5 +1,6 @@
 import { version, Component } from 'inferno';
 import { BrowserRouter, Route, Link } from 'inferno-router';
+import Calculator from './Calculator.js';
 import './App.css';
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
           </ul>
         </div>
         <hr/>
+        <Route path="/basic_calculator" component={Calculator}/>
       </BrowserRouter>
     );
   }
