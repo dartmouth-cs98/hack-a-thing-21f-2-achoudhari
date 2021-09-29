@@ -1,5 +1,8 @@
 # Calculator and Expression Parser with Inferno.js
 
+## Testing
+Clone repository, and cd into hack. Then run npm start and navigate to localhost:3000.
+
 
 ## What you built? 
 
