@@ -1,6 +1,7 @@
 import { Component } from 'inferno';
 import { BrowserRouter, Route, Link } from 'inferno-router';
 import Calculator from './Calculator.js';
+import ExpressionParser from './ExpressionParser';
 import './App.css';
 
 const Home = () => {
@@ -23,6 +24,7 @@ class App extends Component {
         <hr/>
         <Route exact path="/" component={Home} />
         <Route path="/basic_calculator" component={Calculator}/>
+        <Route path="/expression_parser" component={ExpressionParser}/>
       </BrowserRouter>
     );
   }
